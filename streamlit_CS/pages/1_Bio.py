@@ -1,5 +1,17 @@
 import streamlit as st
 
+from pathlib import Path
+import streamlit as st
+from PIL import Image
+
+ROOT = Path(__file__).resolve().parents[1]         # repo root (one up from /pages)
+PHOTO_PATH = ROOT / "assets" / "Headshot.jpg"      # your file as shown in VS Code
+
+if PHOTO_PATH.exists():
+    st.image(Image.open(PHOTO_PATH), caption="Josh Lapierre", width="stretch")  # width replaces use_container_width
+else:
+    st.error(f"Image not found at: {PHOTO_PATH}")
+
 st.title("👋 My Bio")
 
 # ---------- TODO: Replace with your own info ----------
