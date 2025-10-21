@@ -4,7 +4,7 @@ st.title("👋 My Bio")
 
 # ---------- TODO: Replace with your own info ----------
 NAME = "Josh Lapierre"
-PROGRAM = "Bachelors of Science/ Data Science Machine Learning/ Minors in Computer Science and Mathematics/ University of Connecticut"
+PROGRAM = "Bachelors of Science / Data Science Machine Learning/ Minors in Computer Science and Mathematics/ University of Connecticut"
 INTRO = (
     "One project that I am particularly proud of is being part of a team that helps the SDA TAP Lab that also works with the United States Space Force. Our main goal is to create a benchmark dataset for satellite imagery that can be used to train machine learning models to identify and classify objects in space. This project is exciting because it combines my interests in data science, machine learning, and space exploration. "
     "What excites me about data science and machine learning is how they merge logic, creativity, and innovation. Through my work in projects like the SDA TAP Lab and space domain awareness research, I’ve seen how ML can make sense of massive tracking data and enhance space operations."
