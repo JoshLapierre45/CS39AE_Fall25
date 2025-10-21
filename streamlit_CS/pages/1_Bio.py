@@ -14,7 +14,7 @@ FUN_FACTS = [
     "I’m learning Data Visualizations and how to create compelling stories with data. I believe that effective visualizations can make complex information more accessible and engaging, which is crucial in today’s data-driven world.",
     "I want to build some kind of app that uses machine learning dictate the best ballistics for long-range shooting based on environmental factors like wind, humidity, and temperature. This would be a fun way to combine my interests in data science and shooting sports.",
 ]
-PHOTO_PATH = "Headshot.jpg"  # Put a file in repo root or set a URL
+PHOTO_PATH = "../assets/Headshot.jpg"  # Put a file in repo root or set a URL
 
 # ---------- Layout ----------
 col1, col2 = st.columns([1, 2], vertical_alignment="center")
